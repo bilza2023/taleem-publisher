@@ -1,0 +1,100 @@
+{
+  "title": "Exercise 4.2 — Question 2",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 2",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 2",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "8^3+1",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Recognize 1 as 1^3."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "8^3+1^3",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "This is a sum of two cubes."
+              },
+              {
+                "type": "text",
+                "content": "Use a^3+b^3=(a+b)(a^2-ab+b^2)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(8+1)(8^2-8+1)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Substitute a=8 and b=1 into the sum of cubes formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "9(64-8+1)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Simplify the first bracket and calculate the square of 8."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "9(57)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The expression is completely factorized as 9(57)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

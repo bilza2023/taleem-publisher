@@ -1,0 +1,186 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum LibraryStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum ContentType {
+  ARTICLE
+  PLAYER
+  MCQ
+}
+
+enum CourseAccess {
+  OPEN
+  MEMBERS
+  SUBSCRIPTION
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  name      String?
+  role      String   @default("student")
+  resource  String?
+  createdAt DateTime @default(now())
+
+  subscriptions  Subscription[]
+  communications Communication[]
+}
+
+model Admin {
+  id       Int    @id @default(autoincrement())
+  email    String @unique
+  password String
+
+  isActive Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  policies AdminCoursePolicy[]
+}
+
+model AdminCoursePolicy {
+  id Int @id @default(autoincrement())
+
+  adminId  Int
+  courseId Int
+
+  library       Boolean @default(false)
+  communication Boolean @default(false)
+  subscription  Boolean @default(false)
+
+  admin  Admin  @relation(fields: [adminId], references: [id])
+  course Course @relation(fields: [courseId], references: [id])
+
+  @@unique([adminId, courseId])
+}
+
+model Course {
+  id          Int     @id @default(autoincrement())
+  slug        String  @unique
+  title       String
+  description String?
+  thumbnail   String?
+
+  access CourseAccess @default(OPEN)
+
+  price Int @default(0)
+
+  library       Library[]
+  subscriptions Subscription[]
+  adminPolicies AdminCoursePolicy[]
+  groupings     Grouping[]
+}
+
+model Library {
+  id                 Int           @id @default(autoincrement())
+  slug               String        @unique
+  title              String
+  description        String?
+  thumbnail          String?
+  type               ContentType
+  body               String?
+  courseId           Int
+  sortOrder          Int           @default(0)
+  allowCommunication Boolean       @default(true)
+  status             LibraryStatus @default(DRAFT)
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  course         Course          @relation(fields: [courseId], references: [id])
+  communications Communication[]
+
+  groupingId Int
+ grouping Grouping @relation(fields: [groupingId, courseId], references: [id, courseId])
+
+  @@index([slug])
+  @@index([courseId])
+}
+
+model Grouping {
+  id        Int    @id @default(autoincrement())
+  courseId  Int
+  slug      String
+  title     String
+  sortOrder Int    @default(0)
+
+  course  Course    @relation(fields: [courseId], references: [id])
+  lessons Library[]
+
+  @@unique([id, courseId])
+  @@unique([courseId, slug])
+  @@index([courseId])
+}
+
+model Subscription {
+  id Int @id @default(autoincrement())
+
+  userId   Int
+  courseId Int
+
+  startsAt DateTime  @default(now())
+  endsAt   DateTime?
+
+  user   User   @relation(fields: [userId], references: [id])
+  course Course @relation(fields: [courseId], references: [id])
+
+  cancelledAt DateTime?
+
+  @@index([userId])
+  @@index([courseId])
+}
+
+model Communication {
+  id Int @id @default(autoincrement())
+
+  userId Int
+
+  libraryId Int
+
+  type String
+
+  meta String?
+
+  message String
+
+  authorResponse String?
+
+  isPublic  Boolean   @default(false)
+  readAt    DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  user    User    @relation(fields: [userId], references: [id])
+  library Library @relation(fields: [libraryId], references: [id])
+
+  @@index([userId])
+}
+
+model Image {
+  id          String   @id @default(cuid())
+  filename    String   @unique
+  description String
+  alt         String?
+  uploadedBy  String?
+  createdAt   DateTime @default(now())
+}
+
+model Audio {
+  id          String   @id @default(cuid())
+  filename    String   @unique
+  description String
+  uploadedBy  String?
+  createdAt   DateTime @default(now())
+}

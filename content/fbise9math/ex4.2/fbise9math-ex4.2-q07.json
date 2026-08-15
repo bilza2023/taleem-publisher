@@ -1,0 +1,96 @@
+{
+  "title": "Exercise 4.2 — Question 7",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 7",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 7",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(2-x)^3+(y-2)^3",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "This is a sum of two cubes."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "a^3+b^3=(a+b)(a^2-ab+b^2)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use the sum of cubes identity."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(2-x+y-2)((2-x)^2-(2-x)(y-2)+(y-2)^2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Substitute a=2-x and b=y-2."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(y-x)((2-x)^2-(2-x)(y-2)+(y-2)^2)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Simplify the first factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(y-x)(x^2-xy+y^2-2x+2y+4)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The expression is completely factorized."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

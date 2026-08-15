@@ -1,0 +1,112 @@
+
+
+{
+  "version": "deck-v1",
+  "name": "Golden Deck V1 – Full Schema Coverage",
+  "audio": "music.mp3",
+  "theme": "blue",
+
+  "background": {
+    "backgroundColor": "#010214",
+    "backgroundImage": "banner.webp",
+    "backgroundImageOpacity": 0.09
+  },
+  "deck": [
+  
+   {
+  "type": "eq",
+  "start": 130,
+  "end": 140,
+  "data": [
+    {
+      "name": "line",
+      "type": "heading",
+      "content": "Eq Slide - under construction",
+      "showAt": 130,
+       "spItems": [
+        {
+          "type": "text",
+          "content": "Text content for side panel."
+        },
+        {
+          "type": "image",
+          "content": "wood.jpg"
+        }
+      ]
+    },
+    {
+      "name": "line",
+      "type": "math",
+      "content": "(a+b)(a+b)",
+      "showAt": 132,
+      "spItems": [
+        {
+          "type": "text",
+          "content": "The square means the bracket is multiplied by itself."
+        },
+        {
+          "type": "image",
+          "content": "taleem.webp"
+        }
+      ]
+    },
+    {
+      "name": "line",
+      "type": "math",
+      "content": "(a+b)^2",
+      "showAt": 134,
+      "spItems": [
+        {
+          "type": "text",
+          "content": "The square means the bracket is multiplied by itself."
+        },
+        {
+          "type": "image",
+          "content": "typesOfForce.webp"
+        }
+      ]
+    },
+    {
+      "name": "line",
+      "type": "math",
+      "content": "(a+b)^2",
+      "showAt": 136,
+      "spItems": [
+        {
+          "type": "text",
+          "content": "some other content"
+        },
+        {
+          "type": "math",
+          "content": "x^33+y^66=z^7"
+        },
+        {
+          "type": "image",
+          "content": "baloons.png"
+        }
+      ]
+    },
+    {
+      "name": "line",
+      "type": "math",
+      "content": "(a+b)^2 + (a-b)^34 = z^7",
+      "showAt": 138,
+      "spItems": [
+        {
+          "type": "text",
+          "content": "This content is a bit longer than others and we shd make it yellow"
+        },
+        {
+          "type": "math",
+          "content": "x^33+y^66=z^7"
+        },
+        {
+          "type": "image",
+          "content": "box.webp"
+        }
+      ]
+    }
+  ]
+}
+  ]
+}
