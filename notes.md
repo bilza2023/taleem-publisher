@@ -1,0 +1,1 @@
+Taleem is a presentation-based educational medium engineered from the ground up for mathematics, technical subjects, low-bandwidth delivery, and extremely low-cost content production.

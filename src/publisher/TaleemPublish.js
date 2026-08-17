@@ -1,9 +1,9 @@
-import fs from "fs";
 import path from "path";
 import PublishSchema from "../taleem-specs/schema/zodPublish.js";
 import loadCourse from "./componenets/loadCourse.js";
 import compileItem from "./componenets/compileItem.js";
 import trimSyllabus from "./componenets/trimSyllabus.js";
+import SqlAdoptor from "./componenets/SqlAdoptor.js";
 
 export default class TaleemPublish {
 
@@ -28,7 +28,7 @@ export default class TaleemPublish {
 		this.course = null;
 	}
 
-	async publish() {
+	async compile() {
 
 		this.course = loadCourse(
 			this.courseFile,
@@ -40,9 +40,9 @@ export default class TaleemPublish {
 				slug: this.course.slug,
 				title: this.course.title,
 				description: this.course.description,
-				thumbnail: this.course.thumbnail
+				thumbnail: this.course.thumbnail,
+				groupings: []
 			},
-			groupings: [],
 			library: []
 		};
 
@@ -53,6 +53,7 @@ export default class TaleemPublish {
 		) {
 
 			const grouping = this.course.groupings[i];
+
 			const groupingDir = path.join(
 				this.contentDir,
 				grouping.slug
@@ -78,7 +79,7 @@ export default class TaleemPublish {
 				if (item) library.push(item);
 			}
 
-			compiled.groupings.push({
+			compiled.course.groupings.push({
 				slug: grouping.slug,
 				title: grouping.title,
 				thumbnail: grouping.thumbnail,
@@ -93,4 +94,10 @@ export default class TaleemPublish {
 
 		return PublishSchema.parse(compiled);
 	}
+
+	async publish() {
+		const data = await this.compile();
+		return SqlAdoptor(data);
+	}
+
 }
