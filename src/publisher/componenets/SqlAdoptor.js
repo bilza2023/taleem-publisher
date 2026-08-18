@@ -30,23 +30,14 @@ export default async function sqlAdoptor(data) {
 
 		for (const item of data.library) {
 
-			const grouping = data.course.groupings.find(
-				group => group.items.includes(item.slug)
-			);
-
-			if (!grouping) {
-				throw new Error(
-					`Library item "${item.slug}" has no grouping`
-				);
-			}
-
 			await tx.library.create({
 				data: {
 					...item,
 					courseSlug,
-					groupSlug: grouping.slug
+					groupSlug: item.groupSlug
 				}
 			});
+
 		}
 
 	});

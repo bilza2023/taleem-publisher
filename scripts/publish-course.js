@@ -1,4 +1,4 @@
-///home/bilal-tariq/00--TALEEM/taleem-library/scripts/publish-course.js
+// /home/bilal-tariq/00--TALEEM/taleem-library/scripts/publish-course.js
 import fs from "fs";
 import path from "path";
 import kernel from "../src/serverKernel/ServerKernel.js";

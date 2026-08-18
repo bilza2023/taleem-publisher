@@ -1,3 +1,4 @@
+
 import path from "path";
 import PublishSchema from "../taleem-specs/schema/zodPublish.js";
 import loadCourse from "./componenets/loadCourse.js";
@@ -82,11 +83,7 @@ export default class TaleemPublish {
 			compiled.course.groupings.push({
 				slug: grouping.slug,
 				title: grouping.title,
-				thumbnail: grouping.thumbnail,
-				sortOrder: i + 1,
-				items: this.trimSyllabus
-					? trimSyllabus(syllabus, library)
-					: syllabus
+				sortOrder: i + 1
 			});
 
 			compiled.library.push(...library);
@@ -96,8 +93,11 @@ export default class TaleemPublish {
 	}
 
 	async publish() {
+
 		const data = await this.compile();
+
 		return SqlAdoptor(data);
+
 	}
 
 }

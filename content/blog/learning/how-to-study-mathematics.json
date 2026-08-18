@@ -1,0 +1,105 @@
+{
+  "title": "Exercise 4.1 — Question 3",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 3",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 3",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "6x^3+18x^2+12x",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "First look for the greatest common factor of all three terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "6x(x^2+3x+2)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take 6x outside the bracket."
+              },
+              {
+                "type": "text",
+                "content": "Now factorize the quadratic expression inside."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "6x(x^2+x+2x+2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Split the middle term into two terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "6x[x(x+1)+2(x+1)]",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group terms that contain the common factor (x+1)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "6x(x+1)(x+2)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take (x+1) as the common factor."
+              },
+              {
+                "type": "text",
+                "content": "The expression is now completely factorized."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+

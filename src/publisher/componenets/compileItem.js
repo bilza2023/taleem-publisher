@@ -68,6 +68,8 @@ export default function compileItem({
 			course.thumbnail,
 		type: content.type,
 		body,
+		courseSlug: course.slug,
+		groupSlug: grouping.slug,
 		sortOrder
 	};
 }
