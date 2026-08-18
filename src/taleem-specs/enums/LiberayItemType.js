@@ -2,7 +2,7 @@
 
 export const LiberayItemType = Object.freeze({
 
-	Article: "Article",
+	ARTICLE: "ARTICLE",
 	PLAYER: "PLAYER",
 	MCQ: "MCQ",
 
