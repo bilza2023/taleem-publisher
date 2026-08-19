@@ -1,0 +1,107 @@
+
+{
+  "title": "What are Numbers?",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "fbise9math-ch1-what-are-numbers",
+    "audio": "fbise9math-ch1-what-are-numbers.opus",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#1c1902",
+      "backgroundImage": "islamic-bg.png",
+      "backgroundImageOpacity": 0.9
+    },
+    "deck": [
+      {
+        "type": "titleAndSubtitle",
+        "start": 0,
+        "end": 5,
+        "data": [
+          {
+            "name": "title",
+            "content": "What are Numbers?",
+            "showAt": 0
+          },
+          {
+            "name": "subtitle",
+            "content": "Understanding Number Families",
+            "showAt": 1
+          }
+        ]
+      },
+      {
+        "type": "imageSlide",
+        "start": 5,
+        "end": 30,
+        "data": [
+          {
+            "name": "image",
+            "content": "natural-numbers.svg",
+            "showAt": 10
+          }
+        ]
+      },
+      {
+        "type": "imageSlide",
+        "start": 30,
+        "end": 60,
+        "data": [
+          {
+            "name": "image",
+            "content": "whole-numbers.svg",
+            "showAt": 30
+          }
+        ]
+      },
+      {
+        "type": "imageSlide",
+        "start": 60,
+        "end": 94,
+        "data": [
+          {
+            "name": "image",
+            "content": "integers.svg",
+            "showAt": 60
+          }
+        ]
+      },
+      {
+        "type": "imageSlide",
+        "start": 94,
+        "end": 112,
+        "data": [
+          {
+            "name": "image",
+            "content": "rational-numbers.svg",
+            "showAt": 94
+          }
+        ]
+      },
+      {
+        "type": "imageSlide",
+        "start": 112,
+        "end": 140,
+        "data": [
+          {
+            "name": "image",
+            "content": "irrational-numbers.svg",
+            "showAt": 112
+          }
+        ]
+      },
+      {
+        "type": "imageSlide",
+        "start": 140,
+        "end": 180,
+        "data": [
+          {
+            "name": "image",
+            "content": "numbers-family-tree.svg",
+            "showAt": 140
+          }
+        ]
+      }
+    ]
+  }
+}
