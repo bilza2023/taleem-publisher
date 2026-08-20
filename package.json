@@ -1,16 +1,6 @@
 {
   "name": "taleem-library",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "publish:fbise9math": "node scripts/publish-course.js fbise9math"
-  },
-  "dependencies": {
-    "@prisma/client": "^6.19.3",
-    "bcrypt": "^6.0.0",
-    "dotenv": "^17.4.2",
-    "jsonwebtoken": "^9.0.3",
-    "prisma": "^6.19.3",
-    "zod": "^4.4.3"
-  }
+  "type": "module"
+ 
 }
