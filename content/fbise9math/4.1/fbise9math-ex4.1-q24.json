@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 24",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 24",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 24",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Use the middle-term splitting method."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2x^2-5xy-3y^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply 2 by −3 to get −6."
+              },
+              {
+                "type": "text",
+                "content": "Find factors of −6 whose sum is −5."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2x^2-6xy+xy-3y^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use −6 and 1 because −6+1=−5."
+              },
+              {
+                "type": "text",
+                "content": "Split the middle term −5xy."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2x(x-3y)+y(x-3y)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the first two and last two terms."
+              },
+              {
+                "type": "text",
+                "content": "Factor each group."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(2x+y)(x-3y)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (x−3y)."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

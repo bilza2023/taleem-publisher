@@ -5,8 +5,8 @@
   "thumbnail": "class9.png",
   "groupings": [
     {
-  "slug": "ch1-real-numbers",
-  "title": "Chapter 1 — Real Numbers",
+  "slug": "1.1",
+  "title": "Ex 1.1",
   "thumbnail": "taleem.webp",
   "items": [
     "fbise9math-ch1-what-are-numbers",
@@ -28,15 +28,43 @@
   ]
 },
     {
-      "slug": "ex4.1",
-      "title": "Exercise 4.1",
-      "thumbnail": "box.webp",
-      "items": [
-        "fbise9math-ex4.1-q03"
-      ]
-    },
+  "slug": "4.1",
+  "title": "Exercise 4.1",
+  "thumbnail": "box.webp",
+  "items": [
+    "fbise9math-ex4.1-q01",
+    "fbise9math-ex4.1-q02",
+    "fbise9math-ex4.1-q03",
+    "fbise9math-ex4.1-q04",
+    "fbise9math-ex4.1-q05",
+    "fbise9math-ex4.1-q06",
+    "fbise9math-ex4.1-q07",
+    "fbise9math-ex4.1-q08",
+    "fbise9math-ex4.1-q09",
+    "fbise9math-ex4.1-q10",
+    "fbise9math-ex4.1-q11",
+    "fbise9math-ex4.1-q12",
+    "fbise9math-ex4.1-q13",
+    "fbise9math-ex4.1-q14",
+    "fbise9math-ex4.1-q15",
+    "fbise9math-ex4.1-q16",
+    "fbise9math-ex4.1-q17",
+    "fbise9math-ex4.1-q18",
+    "fbise9math-ex4.1-q19",
+    "fbise9math-ex4.1-q20",
+    "fbise9math-ex4.1-q21",
+    "fbise9math-ex4.1-q22",
+    "fbise9math-ex4.1-q23",
+    "fbise9math-ex4.1-q24",
+    "fbise9math-ex4.1-q25",
+    "fbise9math-ex4.1-q26",
+    "fbise9math-ex4.1-q27",
+    "fbise9math-ex4.1-q28",
+    "fbise9math-ex4.1-q29"
+  ]
+},
     {
-      "slug": "ex4.2",
+      "slug": "4.2",
       "title": "Exercise 4.2",
       "thumbnail": "taleem.webp",
       "items": [
@@ -63,6 +91,55 @@
         "fbise9math-ex4.2-q21",
         "fbise9math-ex4.2-q22"
       ]
-    }
+    },
+    {
+  "slug": "4.3",
+  "title": "Exercise 4.3",
+  "thumbnail": "box.webp",
+  "items": [
+    "fbise9math-ex4.3-q01",
+    "fbise9math-ex4.3-q02",
+    "fbise9math-ex4.3-q03",
+    "fbise9math-ex4.3-q04",
+    "fbise9math-ex4.3-q05",
+    "fbise9math-ex4.3-q06",
+    "fbise9math-ex4.3-q07",
+    "fbise9math-ex4.3-q08",
+    "fbise9math-ex4.3-q09"
+  ]
+},
+{
+  "slug": "4.4",
+  "title": "Exercise 4.4",
+  "thumbnail": "box.webp",
+  "items": [
+  "fbise9math-ex4.4-q01-i",
+"fbise9math-ex4.4-q01-ii",
+"fbise9math-ex4.4-q01-iii",
+"fbise9math-ex4.4-q01-iv",
+"fbise9math-ex4.4-q01-v",
+
+"fbise9math-ex4.4-q02-i",
+"fbise9math-ex4.4-q02-ii",
+"fbise9math-ex4.4-q02-iii",
+"fbise9math-ex4.4-q02-iv",
+
+    "fbise9math-ex4.4-q03",
+    "fbise9math-ex4.4-q04",
+    "fbise9math-ex4.4-q05",
+    "fbise9math-ex4.4-q06",
+    "fbise9math-ex4.4-q07",
+    "fbise9math-ex4.4-q08",
+    "fbise9math-ex4.4-q09",
+    "fbise9math-ex4.4-q10",
+    "fbise9math-ex4.4-q11",
+    "fbise9math-ex4.4-q12",
+    "fbise9math-ex4.4-q13",
+    "fbise9math-ex4.4-q14",
+    "fbise9math-ex4.4-q15"
+  ]
+}
+
+
   ]
 }

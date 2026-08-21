@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.2 — Question 8",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 8",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 8",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Recognize a difference of two cubes."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "64(x+y)^3-z^3",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Recognize 64 as 4³."
+              },
+              {
+                "type": "text",
+                "content": "So the first term is [4(x+y)]³."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "[4(x+y)]^3-z^3",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "This is a difference of two cubes."
+              },
+              {
+                "type": "text",
+                "content": "Use a³−b³=(a−b)(a²+ab+b²)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "[4(x+y)-z][16(x+y)^2+4z(x+y)+z^2]",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take a=4(x+y) and b=z."
+              },
+              {
+                "type": "text",
+                "content": "Substitute them into the difference of cubes formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(4x+4y-z)(16(x+y)^2+4z(x+y)+z^2)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Simplify the first factor."
+              },
+              {
+                "type": "text",
+                "content": "Both factors are now explicit."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(4x+4y-z)(16(x+y)^2+4z(x+y)+z^2)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The difference of cubes has been completely factorized."
+              },
+              {
+                "type": "text",
+                "content": "This is the final answer."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

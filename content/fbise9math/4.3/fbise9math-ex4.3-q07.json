@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.3 — Question 7",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 7",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 7",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following by factorization."
+              },
+              {
+                "type": "text",
+                "content": "Factorize both expressions and identify their common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "c^2x^2-d^2, acx^2-bcx+adx-bd",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The first expression is a difference of two squares."
+              },
+              {
+                "type": "text",
+                "content": "Group the terms in the second expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(cx-d)(cx+d), cx(ax-b)+d(ax-b)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use A²−B²=(A−B)(A+B) for the first expression."
+              },
+              {
+                "type": "text",
+                "content": "Take (ax−b) common from the second expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(cx-d)(cx+d), (cx+d)(ax-b)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The factor cx+d appears in both expressions."
+              },
+              {
+                "type": "text",
+                "content": "Now compare the remaining factors."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=cx+d",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor with the least power."
+              },
+              {
+                "type": "text",
+                "content": "Therefore the HCF is cx+d."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

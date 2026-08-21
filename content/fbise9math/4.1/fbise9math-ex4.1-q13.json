@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 13",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 13",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 13",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Look for a fourth-power factorization pattern."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m^4+m^2+1",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rewrite the middle term as m²."
+              },
+              {
+                "type": "text",
+                "content": "Use the identity a⁴+a²b²+b⁴."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m^4+m^2+1=(m^2+m+1)(m^2-m+1)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Apply the identity a⁴+a²b²+b⁴=(a²+ab+b²)(a²−ab+b²)."
+              },
+              {
+                "type": "text",
+                "content": "Take a=m and b=1."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(m^2+m+1)(m^2-m+1)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The two quadratic factors are obtained directly."
+              },
+              {
+                "type": "text",
+                "content": "Their product gives the original expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(m^2+m+1)(m^2-m+1)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Both factors are completely factorized."
+              },
+              {
+                "type": "text",
+                "content": "This is the final answer."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

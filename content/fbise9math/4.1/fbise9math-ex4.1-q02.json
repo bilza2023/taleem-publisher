@@ -1,0 +1,84 @@
+{
+  "title": "Exercise 4.1 — Question 2",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 2",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 2",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following polynomial."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3mx-3x-3my+3y",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the first two terms and the last two terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x(m-1)-3y(m-1)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take 3x from the first group and 3y from the second."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3(m-1)(x-y)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (m-1) from both terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3(m-1)(x-y)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "No further common factor can be taken. This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

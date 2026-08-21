@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 9",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 9",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 9",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find a polynomial whose factorization is given."
+              },
+              {
+                "type": "text",
+                "content": "Use an appropriate algebraic formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+y-2c)(x+2c+y)",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rewrite the factors to expose the difference of squares."
+              },
+              {
+                "type": "text",
+                "content": "The common part is x+y."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+y-2c)(x+y+2c)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "This has the form (A−B)(A+B)."
+              },
+              {
+                "type": "text",
+                "content": "Take A=x+y and B=2c."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+y)^2-(2c)^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Apply (A−B)(A+B)=A²−B²."
+              },
+              {
+                "type": "text",
+                "content": "Now expand the two squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2+2xy+y^2-4c^2",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Expand (x+y)²."
+              },
+              {
+                "type": "text",
+                "content": "Also, (2c)²=4c²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "text",
+            "content": "The required polynomial is x²+2xy+y²−4c².",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "This polynomial has the required factorization."
+              },
+              {
+                "type": "text",
+                "content": "The answer follows directly from the difference of squares."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

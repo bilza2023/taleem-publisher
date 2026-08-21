@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 7",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 7",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 7",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following polynomial."
+              },
+              {
+                "type": "text",
+                "content": "Look for a perfect-square trinomial and a difference of squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2-6ax+9a^2-16b^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Focus on the first three terms."
+              },
+              {
+                "type": "text",
+                "content": "They match the pattern A²−2AB+B²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x-3a)^2-(4b)^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "x²−6ax+9a² becomes (x−3a)²."
+              },
+              {
+                "type": "text",
+                "content": "Also, 16b²=(4b)²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x-3a-4b)(x-3a+4b)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Apply A²−B²=(A−B)(A+B)."
+              },
+              {
+                "type": "text",
+                "content": "Here A=x−3a and B=4b."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x-3a-4b)(x-3a+4b)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Both factors are now fully separated."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

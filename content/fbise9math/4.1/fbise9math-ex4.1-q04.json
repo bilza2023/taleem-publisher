@@ -1,0 +1,88 @@
+{
+  "title": "Exercise 4.1 — Question 4",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 4",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 4",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following polynomial."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(k+2)^2-8(k+2)+16",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Recognize the expression as a quadratic in (k+2)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(k+2)^2-2(4)(k+2)+4^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write 8 as 2×4 and 16 as 4²."
+              },
+              {
+                "type": "text",
+                "content": "This matches a²−2ab+b²=(a−b)²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "((k+2)-4)^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Apply the difference-of-squares pattern to the perfect square trinomial."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(k-2)^2",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Simplify k+2−4 to k−2."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

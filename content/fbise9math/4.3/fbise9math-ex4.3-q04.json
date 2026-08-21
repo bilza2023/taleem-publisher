@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.3 — Question 4",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 4",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 4",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following by factorization."
+              },
+              {
+                "type": "text",
+                "content": "Factorize both expressions and identify their common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "a^3b-ab^3, a^5b^2-a^2b^5",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factors from each expression first."
+              },
+              {
+                "type": "text",
+                "content": "Then factor the remaining difference of powers."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "ab(a^2-b^2), a^2b^2(a^3-b^3)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The first expression has common factor ab."
+              },
+              {
+                "type": "text",
+                "content": "The second expression has common factor a²b²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "ab(a-b)(a+b), a^2b^2(a-b)(a^2+ab+b^2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use a²−b²=(a−b)(a+b)."
+              },
+              {
+                "type": "text",
+                "content": "Use a³−b³=(a−b)(a²+ab+b²)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "ab(a-b)(a+b), ab(a-b)[ab(a^2+ab+b^2)]",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Compare the factors common to both expressions."
+              },
+              {
+                "type": "text",
+                "content": "The common factors are ab and (a−b)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=ab(a-b)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the least power of every common factor."
+              },
+              {
+                "type": "text",
+                "content": "Therefore the HCF is ab(a−b)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

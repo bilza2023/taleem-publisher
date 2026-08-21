@@ -1,0 +1,136 @@
+{
+  "title": "Exercise 4.2 — Question 16",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 16",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 16",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Pair the factors to reveal a common expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(k+2)(k-3)(k+5)(k+10)+375",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Pair (k+2)(k+5) and (k-3)(k+10)."
+              },
+              {
+                "type": "text",
+                "content": "Both products contain k²+7k."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(k^2+7k+10)(k^2+7k-30)+375",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Expand each pair."
+              },
+              {
+                "type": "text",
+                "content": "Now use k²+7k as one expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(A+10)(A-30)+375",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Let A=k²+7k."
+              },
+              {
+                "type": "text",
+                "content": "The expression becomes a quadratic in A."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "A^2-20A+75",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply the brackets and combine 375."
+              },
+              {
+                "type": "text",
+                "content": "Find two numbers with product 75 and sum -20."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(A-15)(A-5)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The required numbers are -15 and -5."
+              },
+              {
+                "type": "text",
+                "content": "Now substitute A=k²+7k."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(k^2+7k-15)(k^2+7k-5)",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Replace A in both factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

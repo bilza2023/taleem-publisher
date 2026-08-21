@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 8",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 8",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 8",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following polynomial."
+              },
+              {
+                "type": "text",
+                "content": "Look for a perfect square inside the expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "1-(x^2+2xy+y^2)",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the negative terms together."
+              },
+              {
+                "type": "text",
+                "content": "The bracket is a perfect square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "1-(x+y)^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use x²+2xy+y²=(x+y)²."
+              },
+              {
+                "type": "text",
+                "content": "Now the expression is a difference of two squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "1^2-(x+y)^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write 1 as 1² to show the formula clearly."
+              },
+              {
+                "type": "text",
+                "content": "Apply A²−B²=(A−B)(A+B)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(1-x-y)(1+x+y)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Substitute A=1 and B=x+y."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

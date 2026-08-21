@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 17",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 17",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 17",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Find two numbers whose product is 12 and sum is −7."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "12-7x+x^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rearrange in descending powers of x."
+              },
+              {
+                "type": "text",
+                "content": "The quadratic is x²−7x+12."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2-7x+12",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find factors of 12 with sum −7."
+              },
+              {
+                "type": "text",
+                "content": "The required numbers are −3 and −4."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2-3x-4x+12",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Split the middle term −7x into −3x−4x."
+              },
+              {
+                "type": "text",
+                "content": "Now group the terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x(x-3)-4(x-3)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take x common from the first two terms."
+              },
+              {
+                "type": "text",
+                "content": "Take −4 common from the last two terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x-3)(x-4)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (x−3)."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

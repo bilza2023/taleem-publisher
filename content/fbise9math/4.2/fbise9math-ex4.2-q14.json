@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.2 — Question 14",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 14",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 14",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Look for a common expression in both brackets."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(y^2+2y-3)(y^2+2y+11)+48",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Let A=y²+2y."
+              },
+              {
+                "type": "text",
+                "content": "The expression becomes (A-3)(A+11)+48."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "A^2+8A-33+48",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply the two brackets."
+              },
+              {
+                "type": "text",
+                "content": "Combine -33 and +48."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "A^2+8A+15",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find two numbers with product 15 and sum 8."
+              },
+              {
+                "type": "text",
+                "content": "The numbers are 3 and 5."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(A+3)(A+5)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the quadratic in A."
+              },
+              {
+                "type": "text",
+                "content": "Now substitute A=y²+2y."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(y^2+2y+3)(y^2+2y+5)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Replace A in both factors."
+              },
+              {
+                "type": "text",
+                "content": "These factors cannot be further factorized over the integers."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "title": "Exercise 4.3 — Question 9",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 9",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 9",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following by factorization."
+              },
+              {
+                "type": "text",
+                "content": "Factorize all three expressions and compare their common factors."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "ax^2+2a^2x+a^3",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take a common from every term."
+              },
+              {
+                "type": "text",
+                "content": "The remaining expression is a perfect square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "a(x^2+2ax+a^2)=a(x+a)^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Recognize x²+2ax+a² as (x+a)²."
+              },
+              {
+                "type": "text",
+                "content": "So the first expression has factors a and (x+a)²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2ax^2-4a^2x-6a^3",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take 2a common from all terms."
+              },
+              {
+                "type": "text",
+                "content": "Factor the remaining quadratic."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2a(x^2-2ax-3a^2)=2a(x-3a)(x+a)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find two factors whose product is −3a² and sum is −2a."
+              },
+              {
+                "type": "text",
+                "content": "They are −3a and a."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3(ax+a^2)^2=3a^2(x+a)^2",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factor a from ax+a²."
+              },
+              {
+                "type": "text",
+                "content": "Squaring gives a²(x+a)²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Compare the factors",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "All three expressions contain a and (x+a)."
+              },
+              {
+                "type": "text",
+                "content": "The least power of (x+a) is one."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=a(x+a)",
+            "showAt": 70,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factors with their least powers."
+              },
+              {
+                "type": "text",
+                "content": "Therefore the required HCF is a(x+a)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

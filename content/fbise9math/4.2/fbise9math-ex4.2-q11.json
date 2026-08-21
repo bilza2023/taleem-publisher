@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.2 — Question 11",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 11",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 11",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Recognize the expansion of a perfect cube."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "125x^3-y^3-75x^2y+15xy^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Recognize 125x³=(5x)³ and y³=y³."
+              },
+              {
+                "type": "text",
+                "content": "Compare the middle terms with the cube formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(5x)^3-3(5x)^2y+3(5x)y^2-y^3",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The terms match a³−3a²b+3ab²−b³."
+              },
+              {
+                "type": "text",
+                "content": "Take a=5x and b=y."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(5x-y)^3",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Apply the perfect-cube identity."
+              },
+              {
+                "type": "text",
+                "content": "All four terms combine into one cube."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(5x-y)(5x-y)(5x-y)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write the cube as three identical factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

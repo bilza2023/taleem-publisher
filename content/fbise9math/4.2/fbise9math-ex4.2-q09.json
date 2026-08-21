@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.2 — Question 9",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 9",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 9",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Look for the identity of a difference of two cubes."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "27p^3+144pq^2-108p^2q-64q^3",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rearrange the terms to match the cube identity."
+              },
+              {
+                "type": "text",
+                "content": "Recognize 27p³=(3p)³ and 64q³=(4q)³."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "27p^3-108p^2q+144pq^2-64q^3",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The middle terms match the expansion of (3p−4q)³."
+              },
+              {
+                "type": "text",
+                "content": "Use a³−3a²b+3ab²−b³=(a−b)³."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(3p-4q)^3",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take a=3p and b=4q."
+              },
+              {
+                "type": "text",
+                "content": "The four terms combine into one perfect cube."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(3p-4q)(3p-4q)(3p-4q)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write the cube as three identical factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

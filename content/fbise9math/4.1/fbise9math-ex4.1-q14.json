@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 14",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 14",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 14",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "First take out the greatest common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x^4-21x^3+24x^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Every term contains 3x²."
+              },
+              {
+                "type": "text",
+                "content": "Take 3x² outside."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x^2(x^2-7x+8)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Divide each term by 3x²."
+              },
+              {
+                "type": "text",
+                "content": "Now factorize the quadratic x²−7x+8."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2-7x+8=0",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The quadratic does not factor into integer factors."
+              },
+              {
+                "type": "text",
+                "content": "Use the quadratic formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x=\\frac{7\\pm\\sqrt{17}}{2}",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "For x²−7x+8=0, a=1, b=−7, c=8."
+              },
+              {
+                "type": "text",
+                "content": "The discriminant is 49−32=17."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x^2\\left(x-\\frac{7+\\sqrt{17}}{2}\\right)\\left(x-\\frac{7-\\sqrt{17}}{2}\\right)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use the two roots to write the quadratic as two linear factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization over the real numbers."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

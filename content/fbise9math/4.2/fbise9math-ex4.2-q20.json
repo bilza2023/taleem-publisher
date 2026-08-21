@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.2 — Question 20",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 20",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 20",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Use suitable grouping to reveal a difference of squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(5-x)(2+x)(10-x)(1+x)-7x^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply the factors in a suitable order."
+              },
+              {
+                "type": "text",
+                "content": "After simplification, look for a square minus a square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^4-12x^3+120x+100",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rewrite the expression to expose a perfect square."
+              },
+              {
+                "type": "text",
+                "content": "The useful square is x²−6x−10."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-6x-10)^2-16x^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The remaining term is 16x²=(4x)²."
+              },
+              {
+                "type": "text",
+                "content": "Now apply the difference of squares formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-6x-10-4x)(x^2-6x-10+4x)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use A²−B²=(A−B)(A+B)."
+              },
+              {
+                "type": "text",
+                "content": "Take A=x²−6x−10 and B=4x."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-10x-10)(x^2-2x-10)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Simplify both factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

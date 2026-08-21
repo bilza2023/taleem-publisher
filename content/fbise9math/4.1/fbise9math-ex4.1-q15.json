@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 15",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 15",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 15",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Look for a difference of two squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^8+x^4+1",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Complete the square using x⁴."
+              },
+              {
+                "type": "text",
+                "content": "Add and subtract x⁴."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^4+1)^2-x^4",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Expand (x⁴+1)² to get x⁸+2x⁴+1."
+              },
+              {
+                "type": "text",
+                "content": "Subtracting x⁴ leaves x⁸+x⁴+1."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^4+1)^2-(x^2)^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write x⁴ as (x²)²."
+              },
+              {
+                "type": "text",
+                "content": "Now apply the difference of two squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^4-x^2+1)(x^4+x^2+1)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use A²−B²=(A−B)(A+B)."
+              },
+              {
+                "type": "text",
+                "content": "Take A=x⁴+1 and B=x²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^4-x^2+1)(x^4+x^2+1)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Both factors are quadratic in x²."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

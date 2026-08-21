@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 25",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 25",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 25",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Use the middle-term splitting method."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "-5x^2+6x+8",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply -5 by 8 to get -40."
+              },
+              {
+                "type": "text",
+                "content": "Find factors of -40 whose sum is 6."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "-5x^2+10x-4x+8",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use 10 and -4 because their sum is 6."
+              },
+              {
+                "type": "text",
+                "content": "Split the middle term 6x."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "-5x(x-2)-4(x-2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the terms with the common factor (x-2)."
+              },
+              {
+                "type": "text",
+                "content": "Factor -5x and -4 from the two groups."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(-5x-4)(x-2)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (x-2)."
+              },
+              {
+                "type": "text",
+                "content": "The two remaining terms form the first factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(-5x-4)(x-2)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Check by multiplying the two factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

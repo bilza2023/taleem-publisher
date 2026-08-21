@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.3 — Question 3",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 3",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 3",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following by factorization."
+              },
+              {
+                "type": "text",
+                "content": "Factorize both expressions and identify their common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(a-b)^3, a^2-2ab+b^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The first expression is a cube."
+              },
+              {
+                "type": "text",
+                "content": "The second expression is a perfect square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(a-b)^3, (a-b)^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use a²−2ab+b²=(a−b)²."
+              },
+              {
+                "type": "text",
+                "content": "Now both expressions are powers of the same factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(a-b)(a-b)(a-b), (a-b)(a-b)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write the powers as repeated factors."
+              },
+              {
+                "type": "text",
+                "content": "The common factor occurs twice."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=(a-b)^2",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the least power of the common factor."
+              },
+              {
+                "type": "text",
+                "content": "Therefore the HCF is (a−b)²."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

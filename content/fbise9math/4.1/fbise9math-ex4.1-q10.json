@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 10",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 10",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 10",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Show the expression as the difference of two squares."
+              },
+              {
+                "type": "text",
+                "content": "First identify a perfect square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2+4y^2-z^2+4xy",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rearrange the terms to group the x and y terms."
+              },
+              {
+                "type": "text",
+                "content": "The first three terms can form a perfect square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2+4xy+4y^2-z^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use x²+2xy+y²=(x+y)² with x and 2y."
+              },
+              {
+                "type": "text",
+                "content": "The first three terms are (x+2y)²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+2y)^2-z^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Now the expression is a difference of two squares."
+              },
+              {
+                "type": "text",
+                "content": "Apply A²−B²=(A−B)(A+B)."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+2y-z)(x+2y+z)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take A=x+2y and B=z."
+              },
+              {
+                "type": "text",
+                "content": "This gives the required factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

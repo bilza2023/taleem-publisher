@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 23",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 23",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 23",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Use the middle-term splitting method."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x^2+11x+6",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply 3 by 6 to get 18."
+              },
+              {
+                "type": "text",
+                "content": "Find factors of 18 whose sum is 11."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x^2+9x+2x+6",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The required factors are 9 and 2."
+              },
+              {
+                "type": "text",
+                "content": "Split 11x into 9x+2x."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "3x(x+3)+2(x+3)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the first two and last two terms."
+              },
+              {
+                "type": "text",
+                "content": "Factor each group."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(3x+2)(x+3)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (x+3)."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

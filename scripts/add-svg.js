@@ -1,3 +1,4 @@
+
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -16,13 +17,13 @@ try {
 
 	fs.mkdirSync(svgDir, { recursive: true });
 
-	const targetFile = path.join(svgDir, `${data.slug}.svg`);
+	const targetFile = path.join(svgDir, `${data.slug}.json`);
 
 	if (fs.existsSync(targetFile)) {
 		throw new Error(`SVG "${data.slug}" already exists. File was not overwritten.`);
 	}
 
-	fs.writeFileSync(targetFile, data.body, "utf8");
+	fs.copyFileSync(sourceFile, targetFile);
 	fs.writeFileSync(sourceFile, "", "utf8");
 
 	console.log("SVG added successfully:");

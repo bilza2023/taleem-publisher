@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 22",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 22",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 22",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Find two numbers whose product is −2 and sum is 1."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2+x-2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The leading coefficient is 1."
+              },
+              {
+                "type": "text",
+                "content": "Look for factors of −2 that add to 1."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^2+2x-x-2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The required numbers are 2 and −1."
+              },
+              {
+                "type": "text",
+                "content": "Split x into 2x−x."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x(x+2)-(x+2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the first two and last two terms."
+              },
+              {
+                "type": "text",
+                "content": "Take x from the first group and −1 from the second."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+2)(x-1)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (x+2)."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

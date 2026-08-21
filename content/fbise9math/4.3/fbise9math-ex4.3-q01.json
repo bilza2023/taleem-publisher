@@ -1,0 +1,296 @@
+{
+  "title": "Exercise 4.3 — Question 1",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 1",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 150,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 1(a)",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following monomials by completing the table."
+              },
+              {
+                "type": "text",
+                "content": "For each row, take the HCF of the numerical coefficients and the least power of every common variable."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "16p^3q, 9pq^2r",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "HCF of coefficients 16 and 9 is 1."
+              },
+              {
+                "type": "text",
+                "content": "Common powers are p¹ and q¹; r is not common."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=pq",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply the common numerical and variable factors."
+              },
+              {
+                "type": "text",
+                "content": "So the required HCF is pq."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "10p^3q^2r, 5p^2qr, 15p^2qr^2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The HCF of 10, 5 and 15 is 5."
+              },
+              {
+                "type": "text",
+                "content": "Use the least common powers p²q¹r¹."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=5p^2qr",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Combine 5 with p²qr."
+              },
+              {
+                "type": "text",
+                "content": "This is the HCF of the second row."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "14p^4qr^4, 28p^3qr^3, 7p^2qr^2, 21p^2q^2r^4",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The HCF of 14, 28, 7 and 21 is 7."
+              },
+              {
+                "type": "text",
+                "content": "The least common powers are p²q¹r²."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=7p^2qr^2",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Combine the coefficient and common variable factors."
+              },
+              {
+                "type": "text",
+                "content": "This completes the table."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Question 1(b)",
+            "showAt": 70,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use the given common factors with their least powers."
+              },
+              {
+                "type": "text",
+                "content": "The HCF is the product of all these common factors."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=2^2×3×pq×(p+q)^2",
+            "showAt": 80,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The numerical HCF is 4×3=12."
+              },
+              {
+                "type": "text",
+                "content": "Include pq and (p+q)² as the common polynomial factors."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=12pq(p+q)^2",
+            "showAt": 90,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply the common factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the required HCF."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Question 1(c)",
+            "showAt": 100,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write any two polynomials whose HCF is 1."
+              },
+              {
+                "type": "text",
+                "content": "Choose two polynomials with no common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "p+1, p+2",
+            "showAt": 110,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "These two polynomials have no common factor."
+              },
+              {
+                "type": "text",
+                "content": "Therefore their HCF is 1."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Question 1(d)",
+            "showAt": 120,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The only common factor is m−n and the only uncommon factor is m²+n²."
+              },
+              {
+                "type": "text",
+                "content": "Use these factors to identify the two polynomials."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m-n, (m-n)(m^2+n^2)",
+            "showAt": 130,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The first polynomial contains only the common factor."
+              },
+              {
+                "type": "text",
+                "content": "The second contains the common factor and the uncommon factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Question 1(e)",
+            "showAt": 140,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The two polynomials are written in a different order."
+              },
+              {
+                "type": "text",
+                "content": "Reordering terms does not change a polynomial."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^3+5x+1=1+5x+x^3",
+            "showAt": 145,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The two expressions are identical."
+              },
+              {
+                "type": "text",
+                "content": "Therefore their HCF is the polynomial itself."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=x^3+5x+1",
+            "showAt": 150,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "No factorization procedure is needed."
+              },
+              {
+                "type": "text",
+                "content": "The HCF is the complete polynomial."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 12",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 12",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 12",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Use the identity for a sum of two fourth powers."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^4+4m^4",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rewrite 4m⁴ as (2m²)²."
+              },
+              {
+                "type": "text",
+                "content": "This suggests the Sophie Germain identity."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "x^4+4m^4=x^4+4x^2m^2+4m^4-4x^2m^2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Add and subtract 4x²m²."
+              },
+              {
+                "type": "text",
+                "content": "This creates a perfect square."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2+2xm+2m^2)(x^2-2xm+2m^2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use A²−B²=(A−B)(A+B)."
+              },
+              {
+                "type": "text",
+                "content": "Here A=x²+2m² and B=2xm."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-2xm+2m^2)(x^2+2xm+2m^2)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write the two factors in standard order."
+              },
+              {
+                "type": "text",
+                "content": "Both factors are quadratic expressions."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-2xm+2m^2)(x^2+2xm+2m^2)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The product expands back to x⁴+4m⁴."
+              },
+              {
+                "type": "text",
+                "content": "Therefore this is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

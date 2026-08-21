@@ -1,0 +1,100 @@
+{
+  "title": "Exercise 4.1 — Question 6",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 6",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 6",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following polynomial."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-1)(y+1)-(y+3)(x^2-1)",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Notice that (x²−1) is a common factor in both terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-1)((y+1)-(y+3))",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take (x²−1) outside the bracket."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x^2-1)(-2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Simplify (y+1)−(y+3) to −2."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "-2(x^2-1)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take −2 outside as the constant factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "-2(x-1)(x+1)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factor x²−1 using the difference of two squares."
+              },
+              {
+                "type": "text",
+                "content": "This is completely factorized."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

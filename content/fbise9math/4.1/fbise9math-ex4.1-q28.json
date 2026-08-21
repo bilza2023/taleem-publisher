@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.1 — Question 28",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 28",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 28",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Treat u² as the variable."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "u^4-13u^2+36",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find two numbers whose product is 36."
+              },
+              {
+                "type": "text",
+                "content": "Their sum must be -13."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "u^4-4u^2-9u^2+36",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use -4 and -9 because their product is 36."
+              },
+              {
+                "type": "text",
+                "content": "Their sum is -13."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "u^2(u^2-4)-9(u^2-4)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the first two and last two terms."
+              },
+              {
+                "type": "text",
+                "content": "Take (u²-4) as the common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(u^2-4)(u^2-9)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (u²-4)."
+              },
+              {
+                "type": "text",
+                "content": "Now factor both differences of squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(u-2)(u+2)(u-3)(u+3)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use u²-4=(u-2)(u+2)."
+              },
+              {
+                "type": "text",
+                "content": "Use u²-9=(u-3)(u+3)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

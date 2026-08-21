@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.3 — Question 2",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 2",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 2",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following by factorization."
+              },
+              {
+                "type": "text",
+                "content": "Factorize both expressions and identify their common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+y)^2, x^2-y^2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The first expression is already a perfect square."
+              },
+              {
+                "type": "text",
+                "content": "The second expression is a difference of two squares."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+y)^2, (x+y)(x-y)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use x²−y²=(x+y)(x−y)."
+              },
+              {
+                "type": "text",
+                "content": "Now the common factor is visible."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(x+y)(x+y), (x+y)(x-y)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write the first square as two identical factors."
+              },
+              {
+                "type": "text",
+                "content": "Both expressions contain x+y."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=x+y",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The common factor with the least power is x+y."
+              },
+              {
+                "type": "text",
+                "content": "Therefore the HCF is x+y."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Exercise 4.1 — Question 1",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 1",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 1",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following polynomial."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2x^2y^3-6x^2y^2+2xy^3",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the greatest common factor, 2xy, from all three terms."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2xy(xy^2-3xy+y^2)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Divide each term by 2xy and write the remaining terms in the bracket."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2xy(y^2+xy^2-3xy)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Rearrange the terms inside the bracket if needed."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2xy(xy^2-3xy+y^2)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The bracket has no further common factor, so the expression is completely factorized."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

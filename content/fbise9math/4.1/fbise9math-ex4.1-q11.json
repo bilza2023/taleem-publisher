@@ -1,0 +1,136 @@
+{
+  "title": "Exercise 4.1 — Question 11",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 11",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 80,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 11",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the missing factor in the following."
+              },
+              {
+                "type": "text",
+                "content": "Factorize each expression to identify the missing factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "(a)",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The given factor is y+3."
+              },
+              {
+                "type": "text",
+                "content": "Find the other factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2y^2-3y-27=(y+3)(2y-9)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The two factors multiply to −27."
+              },
+              {
+                "type": "text",
+                "content": "Their middle terms combine to −3y."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "2y-9",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Therefore the missing factor is 2y−9."
+              },
+              {
+                "type": "text",
+                "content": "The factorization reproduces the original expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "(b)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The given factor is x+3."
+              },
+              {
+                "type": "text",
+                "content": "Find the other factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "5x^2+12x-9=(5x-3)(x+3)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The two factors multiply to −9."
+              },
+              {
+                "type": "text",
+                "content": "Their middle terms combine to 12x."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "5x-3",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Therefore the missing factor is 5x−3."
+              },
+              {
+                "type": "text",
+                "content": "The factorization is complete."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

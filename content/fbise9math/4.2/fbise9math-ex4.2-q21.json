@@ -1,0 +1,136 @@
+{
+  "title": "Exercise 4.2 — Question 21",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 21",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 90,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 21",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The expression a⁶ + 729 can be written in two ways."
+              },
+              {
+                "type": "text",
+                "content": "Which form should we use for factorization, and why?"
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "a^6+729",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Since a⁶=(a³)² and 729=27², it is a sum of two squares."
+              },
+              {
+                "type": "text",
+                "content": "But the sum of two squares has no standard factorization formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "a^6+729=(a^2)^3+9^3",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Also, a⁶=(a²)³ and 729=9³."
+              },
+              {
+                "type": "text",
+                "content": "So the expression is a sum of two cubes."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Use the sum of cubes",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The sum of cubes has the identity a³+b³=(a+b)(a²−ab+b²)."
+              },
+              {
+                "type": "text",
+                "content": "This gives us a direct factorization."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(a^2+9)(a^4-9a^2+81)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the two cubes as a² and 9."
+              },
+              {
+                "type": "text",
+                "content": "Substitute them into the sum of cubes formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Why this form?",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The sum-of-squares form does not provide the required school-level factorization."
+              },
+              {
+                "type": "text",
+                "content": "The sum-of-cubes form gives the factorization immediately."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "a^6+729=(a^2+9)(a^4-9a^2+81)",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "This is the required factorization."
+              },
+              {
+                "type": "text",
+                "content": "The second factor has no further integer factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

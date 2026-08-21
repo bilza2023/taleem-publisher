@@ -1,0 +1,136 @@
+{
+  "title": "Exercise 4.2 — Question 15",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 15",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 15",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Look for two related quadratic factors."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "y(y-1)(y-3)(y-4)+2",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Pair the first and last factors."
+              },
+              {
+                "type": "text",
+                "content": "Also pair the two middle factors."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "[y(y-4)][(y-1)(y-3)]+2",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Both products are built from the same quadratic."
+              },
+              {
+                "type": "text",
+                "content": "Expand each pair to see the relationship."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(y^2-4y)(y^2-4y+3)+2",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Let A=y²−4y."
+              },
+              {
+                "type": "text",
+                "content": "Then the expression becomes A(A+3)+2."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "A^2+3A+2",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply A(A+3) and add 2."
+              },
+              {
+                "type": "text",
+                "content": "Find two numbers with product 2 and sum 3."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(A+1)(A+2)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The required numbers are 1 and 2."
+              },
+              {
+                "type": "text",
+                "content": "Now substitute A=y²−4y."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(y^2-4y+1)(y^2-4y+2)",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Replace A in both factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Exercise 4.3 — Question 8",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.3 — Question 8",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.3 — Question 8",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find the HCF of the following by factorization."
+              },
+              {
+                "type": "text",
+                "content": "Factorize each difference of powers and identify the common factor."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m^2-n^2, m^4-n^4, m^6-n^6",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Each expression is a difference of two squares."
+              },
+              {
+                "type": "text",
+                "content": "Start by factoring the simplest expression."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m^2-n^2=(m-n)(m+n)",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use m²−n²=(m−n)(m+n)."
+              },
+              {
+                "type": "text",
+                "content": "These two factors will also appear in the higher powers."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m^4-n^4=(m-n)(m+n)(m^2+n^2)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "First use the difference of squares."
+              },
+              {
+                "type": "text",
+                "content": "Then factor m²−n² again."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "m^6-n^6=(m-n)(m+n)(m^2+mn+n^2)(m^2-mn+n^2)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factor m⁶−n⁶ as (m³−n³)(m³+n³)."
+              },
+              {
+                "type": "text",
+                "content": "Both cubic factors contain m−n and m+n."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=(m-n)(m+n)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The common factors in all three expressions are m−n and m+n."
+              },
+              {
+                "type": "text",
+                "content": "Therefore their product is the HCF."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "HCF=m^2-n^2",
+            "showAt": 60,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Combine the two common factors."
+              },
+              {
+                "type": "text",
+                "content": "So the required HCF is m²−n²."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.2 — Question 12",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 12",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 12",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Recognize the expansion of a perfect cube."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "p^3-9p^2q+27pq^2-27q^3",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Recognize p³ and 27q³ as cubes."
+              },
+              {
+                "type": "text",
+                "content": "Compare the middle terms with the cube formula."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "p^3-3p^2(3q)+3p(3q)^2-(3q)^3",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "The terms match a³−3a²b+3ab²−b³."
+              },
+              {
+                "type": "text",
+                "content": "Take a=p and b=3q."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(p-3q)^3",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Apply the perfect-cube identity."
+              },
+              {
+                "type": "text",
+                "content": "All four terms combine into one cube."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(p-3q)(p-3q)(p-3q)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Write the cube as three identical factors."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

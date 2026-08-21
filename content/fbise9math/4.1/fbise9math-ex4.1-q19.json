@@ -1,0 +1,104 @@
+{
+  "title": "Exercise 4.1 — Question 19",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.1 — Question 19",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 60,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.1 — Question 19",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression."
+              },
+              {
+                "type": "text",
+                "content": "Find factors of 10 whose product is 10 and combine to −29."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "10z^2-29z+10",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply the first and last coefficients: 10×10=100."
+              },
+              {
+                "type": "text",
+                "content": "Find two factors of 100 with sum −29."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "10z^2-25z-4z+10",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Use −25 and −4 because their product is 100."
+              },
+              {
+                "type": "text",
+                "content": "Their sum is −29."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "5z(2z-5)-2(2z-5)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Group the first two and last two terms."
+              },
+              {
+                "type": "text",
+                "content": "Take 5z from the first group and −2 from the second."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(5z-2)(2z-5)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Take the common factor (2z−5)."
+              },
+              {
+                "type": "text",
+                "content": "This is the complete factorization."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

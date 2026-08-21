@@ -1,0 +1,120 @@
+{
+  "title": "Exercise 4.2 — Question 13",
+  "type": "PLAYER",
+  "body": {
+    "version": "deck-v2",
+    "name": "Exercise 4.2 — Question 13",
+    "audio": "music.mp3",
+    "theme": "blue",
+    "background": {
+      "backgroundColor": "#010214",
+      "backgroundImage": "banner.webp",
+      "backgroundImageOpacity": 0.09
+    },
+    "deck": [
+      {
+        "type": "eq",
+        "start": 0,
+        "end": 70,
+        "data": [
+          {
+            "name": "line",
+            "type": "heading",
+            "content": "Exercise 4.2 — Question 13",
+            "showAt": 0,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factorize the following expression completely."
+              },
+              {
+                "type": "text",
+                "content": "Look for a common expression inside the product."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(2x^2-3x+6)(2x^2-3x)-55",
+            "showAt": 10,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Let A=2x²−3x."
+              },
+              {
+                "type": "text",
+                "content": "Then the expression becomes (A+6)A−55."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "A^2+6A-55",
+            "showAt": 20,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Multiply A by (A+6)."
+              },
+              {
+                "type": "text",
+                "content": "Now factorize the resulting quadratic in A."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(A+11)(A-5)",
+            "showAt": 30,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Find two numbers with product −55 and sum 6."
+              },
+              {
+                "type": "text",
+                "content": "The numbers are 11 and −5."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(2x^2-3x+11)(2x^2-3x-5)",
+            "showAt": 40,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Substitute A=2x²−3x."
+              },
+              {
+                "type": "text",
+                "content": "Now factorize the second quadratic further."
+              }
+            ]
+          },
+          {
+            "name": "line",
+            "type": "math",
+            "content": "(2x^2-3x+11)(2x-5)(x+1)",
+            "showAt": 50,
+            "spItems": [
+              {
+                "type": "text",
+                "content": "Factor 2x²−3x−5 as (2x−5)(x+1)."
+              },
+              {
+                "type": "text",
+                "content": "The first quadratic cannot be factored over integers."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
